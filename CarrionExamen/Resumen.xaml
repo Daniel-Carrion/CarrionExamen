@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CarrionExamen.Resumen">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Label Text="Usuario conectado" Grid.Row="0" Grid.Column="0"/>
+                <Entry x:Name="usuarioConectado" IsReadOnly="True" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Nombre estudiante" Grid.Row="1" Grid.Column="0"/>
+                <Entry x:Name="estudiante" IsReadOnly="True" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Valor total a pagar" Grid.Row="2" Grid.Column="0"/>
+                <Entry x:Name="vTotal" IsReadOnly="True" Grid.Row="2" Grid.Column="1"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
